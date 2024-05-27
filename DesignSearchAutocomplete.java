@@ -1,3 +1,19 @@
+// Constructor `AutocompleteSystem(String[] sentences, int[] times)`:
+//   - Time Complexity: ( O(N.L.log 3) ) where ( N ) is the number of sentences and ( L ) is the average length of the sentences.
+//   - Space Complexity: ( O(N.L))
+
+// - Method `insert(String sentence)`:
+//   - Time Complexity: ( O(L.log 3) ) where ( L ) is the length of the sentence.
+//   - Space Complexity: ( O(1))
+
+// - Method `search(String prefix)`:
+//   - Time Complexity: ( O(P) ) where ( P ) is the length of the prefix.
+//   - Space Complexity: ( O(1) )
+
+// - Method `input(char c)`:
+//   - Time Complexity: (O(P.log 3)) where ( P ) is the length of the current input string.
+//   - Space Complexity: ( O(1) )
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

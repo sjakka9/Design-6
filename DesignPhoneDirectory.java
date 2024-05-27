@@ -1,3 +1,20 @@
+
+// - Constructor `PhoneDirectory(int maxNumbers):
+//   - Time Complexity: \( O(maxNumbers) \)
+//   - Space Complexity: \( O(maxNumbers) \)
+
+// - Method `get()`:
+//   - Time Complexity: \( O(1) \)
+//   - Space Complexity: \( O(1) \)
+
+// - Method `check(int number)`:
+//   - Time Complexity: \( O(1) \)
+//   - Space Complexity: \( O(1) \)
+
+// - Method `release(int number)`:
+//   - Time Complexity: \( O(1) \)
+//   - Space Complexity: \( O(1) \)
+
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
